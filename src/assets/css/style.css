@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(246, 243, 243);
+}
+
+.verMas{
+    background-color:rgb(13, 202, 240) ;
+    color: black;
+    margin: 1rem;
+    border:0px;
+}
+
+.verMas:hover{
+    background-color:rgb(4, 165, 198) ;
+    color: white;
+}
+
+.anadir{
+    background-color: rgb(220, 53, 69);
+    color: black;
+    border:0px;
+}
+
+.anadir:hover{
+    background-color: rgb(223, 1, 23);
+    color: white;
+}
+
+.titulo{
+
+color: aliceblue;
+}
+
+
+.valorTotal{
+    color: aliceblue;
+}
+
+.barra{
+    background-color: rgb(1, 187, 225);
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+}
+
+.viewActiva{
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.view{
+    color: rgb(211, 209, 209);
+    text-decoration: none;
+}
+
+.titulo{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.carrito{
+    
+    display:grid ;
+    grid-template-columns: 1fr 8fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+
+   
+}
+
+.imgPizza{
+    margin: 1vw;
+    
+
+}
+
+.imgPizza img{
+    width: 5vw;
+    
+}
+
+.totalPedido{
+
+    margin-top: 3vh;
+    font-weight: 500;
+    font-size: x-large;
+
+}
+
+.subtotal{
+    color: green;
+}
+
+.detalle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    margin-top:1em;
+    border: 1px rgb(177, 177, 177) solid;
+    border-radius: 9px;
+    
+    
+}
+
+.imagen{
+    margin: 1vw;
+}
+
+.datos{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.precio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.valorPizzaTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    margin-bottom: 0;
+}
+
+.banner{
+    background:linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)),  url(https://www.shutterstock.com/image-photo/italian-pizza-cooking-ingredients-on-260nw-1183461973.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.7;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid ;
+}
